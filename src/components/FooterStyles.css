@@ -1,0 +1,33 @@
+.footer {
+  background-color: #222;
+  padding: 40px 0; /* Increased padding for a larger footer */
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  color: white;
+}
+
+.footer-link {
+  font-size: 32px; /* Increased font size for the "Contact me" text */
+  color: white;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 20px; /* Increased margin for better spacing */
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Increased gap between icons */
+}
+
+.social-icons a {
+  font-size: 48px; /* Increased icon size */
+}

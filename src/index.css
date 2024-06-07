@@ -1,0 +1,66 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poiret+One&display=swap');
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'Garet Book';
+  src: url('./fonts/Garet-Book.woff2') format('woff2'),
+       url('./fonts/Garet-Book.woff') format('woff'),
+       url('./fonts/Garet-Book.ttf') format('truetype'),
+       url('./fonts/Garet-Book.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Garet Heavy';
+  src: url('./fonts/Garet-Heavy.woff2') format('woff2'),
+       url('./fonts/Garet-Heavy.woff') format('woff'),
+       url('./fonts/Garet-Heavy.ttf') format('truetype'),
+       url('./fonts/Garet-Heavy.otf') format('opentype');
+}
+
+/* Applying custom font */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* Use your custom font here */
+  font-family: "Garet Book", sans-serif;
+}
+
+body{
+  background: #fff;
+}
+
+h1, 
+h4, 
+p,
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background: rgb(248, 217, 15);
+  color: #000;
+  border: 1px solid #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-light{
+  background: transparent;
+  color: #000;
+}
+
+.btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: #e09999;
+  transition: 0.3s;
+}
